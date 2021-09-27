@@ -82,7 +82,6 @@ const SearchPresenter = ({
     )}
   </Container>
 );
-
 SearchPresenter.propTypes = {
   movieResults: PropTypes.array,
   tvResults: PropTypes.array,
@@ -92,5 +91,4 @@ SearchPresenter.propTypes = {
   handleSubmit: PropTypes.func.isRequired,
   updateTerm: PropTypes.func.isRequired,
 };
-
 export default SearchPresenter;
